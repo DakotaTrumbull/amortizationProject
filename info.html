@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Amortization Calculations</title>
+  <link rel="stylesheet" href="CSS/jquery.mobile-1.3.1.min.css">
+  <script src="scripts/jquery-1.8.3.min.js">
+  </script>
+  <script src="scripts/chromeFileProtocolFix.js"></script>
+  <script src="scripts/jquery.mobile-1.3.1.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="CSS/amortization.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div data-role="page">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="info.html" class="ui-btn-active ui-state-persist">
+
+          Information</a>
+        </li>
+        <li><a href="index.html">
+
+          Interface</a>
+        </li>
+      </ul>
+    </div>
+    <h1>Amortization Costs</h1>
+    <div data-role="content">
+      <figure>
+        <img src="media/costs.jpg" alt="A person calculating costs."
+        width="333" height="228">
+      </figure>
+
+      <p>
+		Amortized cost is that accumulated portion of the recorded cost of a fixed 
+		asset that has been charged to expense through either depreciation or amortization. 
+		Depreciation is used to ratably reduce the cost of a tangible fixed asset, and amortization is 
+		used to ratably reduce the cost of an intangible fixed asset.
+      </p>
+      <p>
+		Be sure check out the calucation notations table below and then
+        check out the interfaces tab to perform a amortixation calculation.
+      </p>
+      <h2>Notations</h2>
+
+      <table>
+        <tr>
+          <th>Abbreviation</th>
+          <th>Meaning</th>
+        </tr>
+        <tr>
+          <td><em>p</em>
+          </td>
+          <td>Annual cost</td>
+        </tr>
+        <tr>
+          <td><em>i</em>
+          </td>
+          <td>Interest rate</td>
+        </tr>
+        <tr>
+          <td><em>y</em>
+          </td>
+          <td>Number of years needed</td>
+        </tr>
+      </table>
+
+      <h2>Equations</h2>
+      <ol>
+        <li>p =  ((i * Accumulated interst)/(Accumlated Interest - 1))
+        </li>
+      </ol>
+    </div>
+  <div data-role=footer>
+    <small>
+
+        Amortization app
+
+    </small>
+  </div>
+</body>
+
+</html>
